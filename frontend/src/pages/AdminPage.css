@@ -1,5 +1,5 @@
 .admin .list-group{
-  overflow-y: scroll;
+  overflow-y: auto;
   height:68vh;
   margin-bottom: 1rem;
 }
