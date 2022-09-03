@@ -81,8 +81,8 @@ io.on('connection', (socket) => {
   });
 });
 
-const port = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 
-httpServer.listen(port, () => {
+httpServer.listen(PORT, () => {
   console.log(`server is running at http://localhost:${port}`)
 })
